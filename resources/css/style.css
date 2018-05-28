@@ -51,7 +51,7 @@ h1, h2, h3 {
   padding-left: 3rem;
 }
 
-.nav {
+nav {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,10 +74,13 @@ justify-content: space-between;
   width: 960px;
   justify-content: space-between;
   margin: auto;
+  margin-top: 3rem;
 }
 
 .image-text {
   background-color: black;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 .block {
@@ -86,4 +89,43 @@ justify-content: space-between;
 
 .tea {
   height: 9rem;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.lunette {
+  height: 4.5rem;
+  }
+
+.text-glasses {
+  margin-top: 4.5rem;
+}
+
+.content {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.content-text {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+  width: 35%;
+  margin-top: 3rem;
+}
+
+.hours {
+  margin-left: 12rem;
+}
+
+.content2 {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+span {
+  margin-right: 15rem;
 }

@@ -1,35 +1,44 @@
+/*General*/
 
 html {
 font-size: 18px;
 font-family: Helvetica;
 }
 
+h1, h2, h3 {
+  color: white;
+}
+
+/*Header*/
+
 .logo {
   height: 1.5rem;
   padding-right: 1rem;
   padding-top: 0.66rem;
   text-align: left;
-
+  padding-bottom: 0.5rem;
 }
 
 .titre {
   padding-bottom: 0.66rem;
-  margin-top: 0.66rem;
+  margin-top: 0.86rem;
   margin-bottom: 0.66rem;
   padding-bottom: 0;
   font-size: 1rem;
+  margin-right: 37rem;
 }
-
 
 header {
 color: white;
-width: 100%;
 background-color: black;
 display: flex;
 align-content: center;
 justify-content: center;
-margin-right: 36.5rem;
+width: 960px;
+width: 100%;
 }
+
+/*Head Picture*/
 
 .image-display {
   background-image: url("../images/moto.jpeg");
@@ -51,11 +60,6 @@ margin-right: 36.5rem;
   font-size: 1rem;
   font-weight: bold;
   margin-right: 28rem;
-
-}
-
-h1, h2, h3 {
-  color: white;
 }
 
 .text1 {
@@ -69,6 +73,7 @@ h1, h2, h3 {
   font-size: 2rem;
 }
 
+/*Nav*/
 
 nav {
   display: flex;
@@ -81,12 +86,13 @@ nav {
 }
 
 .nav-items ul {
-width: 960px;
-color: white;
-display: flex;
-justify-content: space-between;
-
+ width: 960px;
+ color: white;
+ display: flex;
+ justify-content: space-between;
 }
+
+/*Flex Container*/
 
 .flex-container {
   display: flex;
@@ -119,6 +125,8 @@ justify-content: space-between;
   margin-top: 4.5rem;
 }
 
+/*Location and Hours*/
+
 .content {
   display: flex;
   width: 960px;
@@ -149,16 +157,17 @@ span {
   margin-right: 15rem;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  width: 100%;
-  height: 5rem;
-margin-top: 4rem;
-display: flex;
-justify-content: center;
-align-items: center;
+/*Footer*/
 
+footer {
+ background-color: black;
+ color: white;
+ width: 100%;
+ height: 5rem;
+ margin-top: 4rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .copyright {
